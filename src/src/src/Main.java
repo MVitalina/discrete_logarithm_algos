@@ -1,11 +1,11 @@
 package src;
 
-
-public class Main {
+public class Main { // TODO tests
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
 
+        MatchingAlgorithm matchingAlgorithm = new MatchingAlgorithm();
+        System.out.println(matchingAlgorithm.DoAlgo(3, 13, 17)); //correct
 
     }
 }
